@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>My Blog Page</title>
+    <style>
+        a:link {
+            text-decoration: underline;
+            color: blue;
+        }
+        a:visited {
+            text-decoration: underline;
+            color: purple;
+        }
+        a:hover {
+            text-decoration: underline;
+            color: black;
+        }
+
+        h3, h2, .a {
+            padding-left: 15px;
+        }
+        ul {
+            padding-left: 80px;
+        }
+
+        #header {
+            margin-bottom: 1em;
+            text-align: center;
+            background-color:lightblue;
+            width: 100%;
+        }
+        #header h1 {
+            padding:15pt;
+            font-size:25pt;
+        }
+
+        #nav {
+            width: 30%;
+            background-color: lightgoldenrodyellow;
+            height: 450px;
+            float: left;
+            font-size: 13pt;
+        }
+        #nav img {
+            position: relative;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-100%);
+        }
+
+        #content {
+            width: 70%;
+            background-color: lightcyan;
+            float: right;
+            height: 450px;
+            word-wrap: break-word;
+            font-size: 15pt;
+            margin-bottom:10px;
+        }
+
+        #footer {
+            text-align: center;
+            background-color: lightblue;
+            clear: both;
+            padding:10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header"><h1>My Blog Page</h1></div> 
+        <div id="nav">
+            <h2>Links</h2>
+            <ul>
+                <li><a href="https://www.w3.org" target="_blank">W3C</a></li>
+                <li><a href="https://www.mozilla.org/ko/" target="_blank">MOZILLA</a></li>
+                <li><a href="https://htmldog.com/" target="_blank">HTML Dog</a></li>
+            </ul>
+            <img src="image01.png" height="200" width="150" />
+            <p style="text-align:center">구재성</p>
+        </div>
+        <div id="content">
+        <h3>Semantic Tags</h3>
+        <p class="a">시멘틱 요소(Semantic elements)들은 브라우저에게 
+            요소의 의미나 목적을 명확하게 알려주는 요소이다.</p>
+        <h3>div와 span</h3>
+        <p class="a">div은 "divide"의 약자로서 페이지를 논리적인 섹션으로 분리하는데 사용되는 태그이다.
+            span요소는 인라인 요소로서 텍스트를 위한 컨테이너로 사용할 수 있다.</p>
+        </div> 
+        <div id="footer">
+            Copyright 2021. KOOJAESUNG All rights reserved.
+        </div>
+    </div>
+</body>
+</html>
